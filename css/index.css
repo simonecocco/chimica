@@ -16,7 +16,7 @@ button#closeMenu{
     color:white;
 }
 
-@media only screen and (max-width:699px){
+@media only screen and (max-width:799px){
     div#colSx{
         width:70%;
     }
@@ -24,15 +24,55 @@ button#closeMenu{
     div#colDx{
         width:30%;
     }
+
+    p#inputType{
+        margin:15% 0px 10%;
+    }
+
+    button#run{
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+    }
+
+    input#inputString{
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+    ::placeholder{
+        font-size:large;
+    }
 }
 
-@media only screen and (min-width:700px){
+@media only screen and (min-width:800px){
     div#colSx{
         width:50%;
     }
 
     div#colDx{
         width:50%;
+    }
+
+    p#inputType{
+        margin:7% 0px 8%;
+    }
+
+    button#run{
+        margin-left:20%;
+        margin-right:20%;
+        width:60%;
+    }
+
+    input#inputString{
+        width:60%;
+        margin-left:20%;
+        margin-right:20%;
+    }
+
+    ::placeholder{
+        font-size:20px;
     }
 }
 
@@ -66,22 +106,16 @@ html,body{
 }
 
 button#run{
-    margin-top:5%;
-    margin-left:5%;
-    margin-right:5%;
-    width:90%;
+    margin-top:4%;
 }
 
 input#inputString{
-    width:90%;
-    margin-left:5%;
-    margin-right:5%;
     border-left-width:0px !important;
     border-right-width:0px !important;
     border-top-width:0px !important;
     border-bottom-width:2px;
     border-bottom-color: #565656;
-    margin-bottom:5%;
+    margin-bottom:4%;
 }
 
 ::placeholder{
@@ -101,7 +135,6 @@ div#main{
 p#inputType{
     width:100%;
     text-align:center;
-    margin:15% 0px 10%;
 }
 
 p#inputType button#selectInputType{
@@ -111,7 +144,7 @@ p#inputType button#selectInputType{
 
 p#textResult{
     width:100%;
-    padding:10% 20px 5%;
+    padding:5% 20px 2%;
     font-size:large;
     text-align:center;
 }

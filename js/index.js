@@ -39,7 +39,8 @@ function sendRequest(type) {
  * quando modificato il tipo deve cambiare la descrizione
  */
 function update(type){
-    //todo
+    selectType.innerHTML=type[0];
+    showMenu(false);
 }
 
 /***
@@ -71,7 +72,7 @@ function whenLoad() {
         tmp=doc.createElement("li");
         tmp.setAttribute("class","list-group-item");
         tmp.addEventListener("click",()=>{
-            currentType=avaiableTypes[i][1];
+            currentType=avaiableTypes[i];
             update(currentType);
         });
         tmp.innerHTML=avaiableTypes[i][0];
