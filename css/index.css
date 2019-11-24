@@ -1,0 +1,117 @@
+div#typeSelection{
+    position:fixed;
+    left:0px !important;
+    top:0px !important;
+    right:0px !important;
+    bottom:0px !important;
+    height:100% !important;
+    width:100% !important;
+    margin:0px !important;
+    z-index:999 !important;
+}
+
+button#closeMenu{
+    font-weight:bold;
+    margin-bottom:15px;
+    color:white;
+}
+
+@media only screen and (max-width:699px){
+    div#colSx{
+        width:70%;
+    }
+
+    div#colDx{
+        width:30%;
+    }
+}
+
+@media only screen and (min-width:700px){
+    div#colSx{
+        width:50%;
+    }
+
+    div#colDx{
+        width:50%;
+    }
+}
+
+div#colSx{
+    float:left;
+    height:100%;
+    padding-top:15px;
+    overflow:auto;
+}
+
+div#colDx{
+    height:100%;
+    float:right;
+    background:black;
+    opacity:0.6;
+}
+
+div#colSx ul.list-group-flush li.list-group-item{
+    background:#17a2b8 !important;
+    color:white;
+    font-size:large;
+}
+
+div#colSx ul.list-group-flush li.list-group-item:hover{
+    background:#007bff !important;
+}
+
+html,body{
+    margin:0px !important;
+    padding:0px !important;
+}
+
+button#run{
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+}
+
+input#inputString{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    border-left-width:0px !important;
+    border-right-width:0px !important;
+    border-top-width:0px !important;
+    border-bottom-width:2px;
+    border-bottom-color: #565656;
+    margin-bottom:5%;
+}
+
+::placeholder{
+    color:black;
+    opacity: 0.8;
+    z-index: revert;
+}
+
+input:focus{
+    outline:none !important;
+}
+
+div#main{
+    width:100%;
+}
+
+p#inputType{
+    width:100%;
+    text-align:center;
+    margin:15% 0px 10%;
+}
+
+p#inputType button#selectInputType{
+    font-size:large !important;
+    font-weight: bold !important;
+}
+
+p#textResult{
+    width:100%;
+    padding:10% 20px 5%;
+    font-size:large;
+    text-align:center;
+}

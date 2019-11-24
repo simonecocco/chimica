@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <!-- todo only for debug -->
+        <meta http-equiv="refresh" content="60">
+
+        <!-- meta tag -->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="chimica, calcolatore, calcolatrice, elementi, tavola periodica">
+        <meta name="description" content="calcolatore di ossidi, anidridi, idrossidi e altro">
+        <meta name="author" content="Simone Cocco">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- title -->
+        <title>Chimica</title>
+
+        <!-- Bootstrap -->
+        <!-- js -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/bootstrap.bundle.js.map"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js.map"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.js.map"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js.map"></script>
+        <!-- css -->
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <link href="css/bootstrap.css.map" rel="stylesheet"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/bootstrap.min.css.map" rel="stylesheet"/>
+        <link href="css/bootstrap-grid.css" rel="stylesheet"/>
+        <link href="css/bootstrap-grid.css.map" rel="stylesheet"/>
+        <link href="css/bootstrap-grid.min.css" rel="stylesheet"/>
+        <link href="css/bootstrap-grid.min.css.map" rel="stylesheet"/>
+        <link href="css/bootstrap-reboot.css" rel="stylesheet"/>
+        <link href="css/bootstrap-reboot.css.map" rel="stylesheet"/>
+        <link href="css/bootstrap-reboot.min.css" rel="stylesheet"/>
+        <link href="css/bootstrap-reboot.min.css.map" rel="stylesheet"/>
+
+        <!-- js -->
+        <script src="js/index.js"></script>
+
+        <!-- css -->
+        <link href="css/index.css" rel="stylesheet"/>
+
+    </head>
+    <body id="root" class="container-fluid">
+        <!-- header todo -->
+        <!-- navbar todo -->
+        <!-- type selection todo -->
+        <div id="typeSelection" class="row">
+            <div id="colSx" class="col bg-info">
+                <div class="text-right">
+                    <button class="btn" id="closeMenu">
+                        Chiudi
+                    </button>
+                </div>
+                <ul id="typeList" class="list-group list-group-flush">
+                    <!-- gli elementi vengono aggiunti autonomamente -->
+                </ul>
+            </div>
+            <div id="colDx" class="col"></div>
+        </div>
+
+        <!-- main screen todo -->
+        <div id="main">
+            <p id="inputType">
+                <button id="selectInputType" class="btn btn-outline-info">
+                    Ossidi
+                </button>
+            </p>
+            <input type="text" id="inputString" placeholder="Fe, Al..."/>
+            <button id="run" type="button" class="btn-lg btn-primary">
+                Calcola
+            </button>
+            <p id="textResult"></p>
+        </div>
+        <!-- toast errori todo -->
+        <!-- footer todo -->
+
+        <!-- script di avvio -->
+        <script type="text/javascript">
+            whenLoad();
+        </script>
+    </body>
+</html>
